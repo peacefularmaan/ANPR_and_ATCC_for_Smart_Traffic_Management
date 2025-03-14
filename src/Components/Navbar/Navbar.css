@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 120px; */
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+    /* background: transparent; */
+    opacity: 0.7;
+    /* border-radius: 5%; */
+}
+
+.nav-logo{
+    font-family: "Outfit", system-ui;
+    font-size: 38px;
+    font-weight: 500;
+    font-style:italic;
+    /* font-weight: bold; */
+    /* font-family: "Style Script", serif; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-menu{
+    font-family: "Outfit", system-ui;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 60px;
+}
+
+.nav-menu li {
+  padding: 5px 10px; /* add some padding to make it look like a button */
+  border-radius: 4px; /* optional: round the corners slightly */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-menu li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* LiveMonitoring.css */
+
+.live-monitoring-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4ff 0%, #d9e8ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.live-monitoring-box {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  max-width: 500px;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.live-monitoring-box h1 {
+  font-family: 'Outfit', system-ui;
+  font-size: 28px;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.live-monitoring-box p {
+  font-family: 'Outfit', system-ui;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.config-section {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.config-section label {
+  font-family: 'Outfit', system-ui;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.config-section input[type="number"],
+.config-section select,
+.config-section input[type="file"] {
+  font-family: 'Outfit', system-ui;
+  padding: 0.6rem;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s ease;
+}
+
+.config-section input[type="number"]:focus,
+.config-section select:focus,
+.config-section input[type="file"]:focus {
+  outline: none;
+  border-color: #7ca9ff;
+}
+
+.camera-config {
+  margin-bottom: 1rem;
+}
+
+.camera-config label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.config-section button {
+  padding: 0.8rem 1.2rem;
+  font-family: 'Outfit', system-ui;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.config-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Fade-in animation for the box */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
