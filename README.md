@@ -69,8 +69,8 @@ And we are done 🙌!!
 
 ### Live Monitoring Page
 
-![Image](https://github.com/user-attachments/assets/57ff29c8-e2f8-4474-aac9-9bf7ba5f1d8e)
+![Image](https://github.com/user-attachments/assets/260c74fa-f5f0-4bf0-bb13-6d79807b987a)
 
 ### Features Page
 
-![Image](https://github.com/user-attachments/assets/260c74fa-f5f0-4bf0-bb13-6d79807b987a)
+![Image](https://github.com/user-attachments/assets/57ff29c8-e2f8-4474-aac9-9bf7ba5f1d8e)
