@@ -36,9 +36,6 @@ Now the backend is ready to accept the responses from the frontend.
 Open a new terminal by clicking the "+" icon on the top right portion of the terminal and then type :
 
 ```bash
-  cd FrontEnd
-```
-```bash
   npm run dev
 ```
 
